@@ -1,0 +1,7 @@
+load_node.refresh:
+  path: '/page/refresh/{nid}'
+  defaults:
+    _controller: '\Drupal\load_node\Controller\RefreshController::Refresh'
+    _title: 'Refresh node'
+  requirements:
+    _permission: 'access content'
